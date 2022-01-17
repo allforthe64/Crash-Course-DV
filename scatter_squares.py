@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 
-plt.scatter(2, 4, s=200)
+xValues = [1, 2, 3, 4, 5]
+yValues = [1, 4, 9, 16, 25]
+
+
+plt.scatter(xValues, yValues, s=100)
 
 #Set the chart title and label axes
 plt.title("Square Numbers", fontsize=24)
