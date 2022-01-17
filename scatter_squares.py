@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 xValues = list(range(1, 101))
 yValues = [x**2 for x in xValues]
 
-plt.scatter(xValues, yValues, s=40)
+plt.scatter(xValues, yValues, edgecolors="none", s=40)
 
 #Set the chart title and label axes
 plt.title("Square Numbers", fontsize=24)
