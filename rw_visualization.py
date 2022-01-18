@@ -4,7 +4,7 @@ from random_walk import RandomWalk
 
 #keep making random walks while the program is running
 while True:
-    rw = RandomWalk()
+    rw = RandomWalk(50000)
     rw.fillWalk()
 
     #add color map and plot points
