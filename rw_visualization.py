@@ -9,7 +9,7 @@ while True:
 
     #add color map and plot points
     pointNumbers = list(range(rw.numPoints))
-    plt.scatter(rw.xValues, rw.yValues, c=pointNumbers, cmap=plt.cm.viridis, s=1)
+    plt.plot(rw.xValues, rw.yValues, linewidth=5)
     plt.savefig("RandWalk.png")
 
     #add emphasis to the first and last points
