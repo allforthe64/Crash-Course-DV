@@ -7,7 +7,15 @@ with open(filename) as f:
     headerRow = next(reader)
     
     highs = []
+    highsActual = []
     for row in reader:
-        highs.append(row[1])
-
-    print(highs)
+        highs.append(row[8])
+        
+    
+    for i in highs:
+        if not i:
+            pass
+        else:
+            highsActual.append(int(i))
+    
+print(highsActual)
