@@ -1,0 +1,22 @@
+[
+    {
+        "Country Name": "United States of America",
+        "Country Code": "USA",
+        "Year": 2022,
+        "Value": 329500000
+    },
+
+    {
+        "Country Name": "United States of America",
+        "Country Code": "RUS",
+        "Year": 2022,
+        "Value": 144100000
+    },
+
+    {
+        "Country Name": "People's Republic of China",
+        "Country Code": "CHIN",
+        "Year": 2022,
+        "Value": 1402000000
+    }
+]
