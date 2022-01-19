@@ -10,15 +10,18 @@ with open(filename) as f:
     
     highs = []
     dates = []
+    lows = []
     for row in reader:
         highs.append(row[8])
         currentDate = datetime.strptime(row[2], "%Y-%m-%d")
         dates.append(currentDate)
+        lows.append(row[9])
             
 
     #plot data
     fig = plt.figure(dpi=128, figsize=(10,6))
     plt.plot(dates, highs, c="red")
+    plt.plot(dates, lows, c="blue")
 
     fig.autofmt_xdate()
 
