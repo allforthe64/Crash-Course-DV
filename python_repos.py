@@ -14,10 +14,16 @@ print(f"Total repositories: {responseDict['total_count']}")
 #explore information about the repositories
 repoDicts = responseDict["items"]
 
-names, stars = [], []
+names, plotDicts = [], []
 for repoDict in repoDicts:
     names.append(repoDict["name"])
-    stars.append(repoDict["stargazers_count"])
+    
+    plotDict = {
+         "value": repoDict["stargazers_count"],
+         "label": repoDict["description"]
+     }
+
+    plotDicts.append(plotDict)
 
 #make visualization
 myStyle = LS("#333366", base_style=LCS)
@@ -36,7 +42,7 @@ chart = pygal.Bar(myConfig, style=myStyle)
 chart.title = "Most Starred Python Projects on GitHub"
 chart.x_labels = names
 
-chart.add('', stars)
+chart.add('', plotDicts)
 chart.render_to_file("python_repos.svg")
 
 
