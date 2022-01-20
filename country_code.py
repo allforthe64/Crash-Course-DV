@@ -7,7 +7,3 @@ def getCountryCode(countryName):
             return code
     
     return None
-
-print(getCountryCode("Somalia"))
-print(getCountryCode("Pakistan"))
-print(getCountryCode("Iraq"))

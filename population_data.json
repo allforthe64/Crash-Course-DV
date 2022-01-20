@@ -1,22 +1,71 @@
 [
     {
-        "Country Name": "United States of America",
-        "Country Code": "USA",
-        "Year": 2022,
+        "Country Name": "United States",
+        "Country Code": "US",
+        "Year": 2020,
         "Value": 329500000
     },
 
     {
-        "Country Name": "United States of America",
-        "Country Code": "RUS",
-        "Year": 2022,
+        "Country Name": "Russian Federation",
+        "Country Code": "RU",
+        "Year": 2020,
         "Value": 144100000
     },
 
     {
-        "Country Name": "People's Republic of China",
-        "Country Code": "CHIN",
-        "Year": 2022,
+        "Country Name": "China",
+        "Country Code": "CN",
+        "Year": 2020,
         "Value": 1402000000
+    },
+
+    {
+        "Country Name": "United Kingdom",
+        "Country Code": "UK",
+        "Year": 2020,
+        "Value": 67000000
+    },
+
+    {
+        "Country Name": "Japan",
+        "Country Code": "JP",
+        "Year": 2020,
+        "Value": 126500000
+    },
+
+    {
+        "Country Name": "Brazil",
+        "Country Code": "BR",
+        "Year": 2020,
+        "Value": 212600000 
+    },
+
+    {
+        "Country Name": "India",
+        "Country Code": "IN",
+        "Year": 2020,
+        "Value": 1380000000
+    },
+
+    {
+        "Country Name": "Turkey",
+        "Country Code": "TR",
+        "Year": 2020,
+        "Value": 84339067
+    },
+
+    {
+        "Country Name": "France",
+        "Country Code": "FR",
+        "Year": 2020,
+        "Value": 65273511
+    },
+
+    {
+        "Country Name": "Germany",
+        "Country Code": "DE",
+        "Year": 2020,
+        "Value": 83783942
     }
 ]
